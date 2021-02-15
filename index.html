@@ -5,6 +5,21 @@ layout: default
 <section>
 
 	{% for post in site.posts %}
+		<ul>
+			<li>
+				<div class="post-date">
+					<span>{{ post.date | date: "%B %-d, %Y" }}</span>
+				</div>
+				<div class="title">
+					<a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a>
+				</div>
+			</li>
+		</ul>
+
+	{% endfor %}
+
+	<!--
+	{% for post in site.posts %}
 		{% unless post.next %}
 			<h3>{{ post.date | date: '%Y' }}</h3>
 		{% else %}
@@ -27,5 +42,6 @@ layout: default
 		</ul>
 
 	{% endfor %}
+	-->
 
 </section>
