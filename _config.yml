@@ -2,7 +2,6 @@
 title:              "Shorter Stories"
 description:        "Short stories about people."
 author_name:        "Shorter Stories" # change this to your name
-logo_url:           https://avatars0.githubusercontent.com/u/13794983?v=4 # Get it from GitHub API: https://api.github.com/users/<username>
 
 # Site Settings
 url:                https://shorterstories.github.io # main url
