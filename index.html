@@ -3,9 +3,9 @@ layout: default
 ---
 
 <section>
-
+	<h1 class="main-title">Shorter Stories</h1>
+	<ol>
 	{% for post in site.posts reversed %}
-		<ul>
 			<li>
 				<div class="post-date">
 					<span>{{ post.date | date: "%b %-d, %Y" }}</span>
@@ -14,9 +14,8 @@ layout: default
 					<a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a>
 				</div>
 			</li>
-		</ul>
-
 	{% endfor %}
+	</ol>
 
 	<!--
 	{% for post in site.posts %}
