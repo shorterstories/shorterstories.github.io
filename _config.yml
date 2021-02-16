@@ -7,8 +7,8 @@ author_name:        "Shorter Stories" # change this to your name
 url:                https://shorterstories.github.io # main url
 baseurl:            /
 permalink:          /:title # Post permalink
-timezone:           Asia/Kuala_Lumpur # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-mathjax:            true  # enables support for mathjax - set to 'false' to disable
+timezone:           America/New_York # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+mathjax:            false  # enables support for mathjax - set to 'false' to disable
 
 # Site Build
 highlighter:        rouge
